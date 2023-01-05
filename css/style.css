@@ -3,3 +3,15 @@
     margin: 0; 
     box-sizing: border-box; 
 }
+.table {
+border-collapse: collapse;
+color: black;
+margin: 50px;
+}
+.new {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 40px;
+    left: 1200px;
+}

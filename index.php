@@ -11,6 +11,7 @@
 <body>
     <div class="container-fluid">
         <div class="row">
+            <a type="submit" class="new btn btn-success" name="new" href="add.html">New record</a> 
             <table class="table ">
                 <thead>
                     <tr>
