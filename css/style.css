@@ -1,17 +1,20 @@
 * {
     padding: 0;
     margin: 0; 
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
-.table {
-border-collapse: collapse;
-color: black;
-margin: 50px;
+.password_header {
+    display: block;
+    font-size: 45px;
+    text-align: center;
+
 }
-.new {
+.form_input {
+    margin: 200px;
+}
+.save {
     display: inline-block;
-    position: relative;
-    width: 200px;
-    height: 40px;
-    left: 1200px;
+    margin: 50px;
+    width: 100px;
+    
 }

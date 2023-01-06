@@ -6,32 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>password saver</title>
 </head>
 <body>
     <div class="container-fluid">
         <div class="row">
-            <a type="submit" class="new btn btn-success" name="new" href="add.html">New record</a> 
-            <table class="table ">
-                <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>Username</th>
-                        <th>Password</th>
-                        <th>Website</th>
-                    </tr>
+            <form class="form col-lg-6 col-md-6 col-sm-12" action="php/add.php" method="post" >
+                <h1 class=password_header>Save your passwords here</h1>
+                <label for="username">
+                    <input type="text" class="form_input" name="username" placeholder="Enter username">
+                    <lablel>
+                        <label class="password">
+                            <input type="password" class="form_input" name="password" placeholder="Enter your password">
+                        </label>
+                        <label for="website">
+                            <input type="text" class="form_input" name="wbsite" placeholder="Enter website">
 
-                </thead>
-                <tbody>
-                    <?php
-                
-                    ?>
-                </tbody>
-            </table>
+                        </label>
+                        <button class="save btn btn-info" name="save" >save</button>
+
 
         </div>
-
-    </div>
+        <div>
     
 </body>
 </html>

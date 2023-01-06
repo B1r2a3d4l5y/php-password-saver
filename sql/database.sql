@@ -1,6 +1,7 @@
-CREATE TABLE IF NOT EXISTS password_info (
+
+CREATE TABLE IF NOT EXISTS password_info(
     id INTEGER PRIMARY KEY NOT NULL AUTO_INCREMENT,
-    user_name VARCHAR(200) NOT NULL,
-    password BINARY(65) NOT NULL
-    
+    username VARCHAR(200) NOT NULL,
+    password BINARY(60) NOT NULL,
+    website VARCHAR(200) NOT NULL
 );
