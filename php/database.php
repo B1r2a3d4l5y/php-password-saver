@@ -2,13 +2,13 @@
 $dbServerName = "localhost";
 $dbUsername = "root";
 $dbPassword = "";
-$dbName = "paasword_saver";
+$dbName = "password_saver";
 
-$conn =  new mysli($dbServerName, $dbUsername,$dbPassword, $dbName);
+$conn =  new mysqli($dbServerName, $dbUsername,$dbPassword, $dbName);
 if($conn->connect_error) {
     die("connection failed".$conn->connect_error);
 
 } else {
-    die("connection successful");
+    echo "connection suceesful";
 }
 $conn->close();

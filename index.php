@@ -11,7 +11,7 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <form class="form col-lg-6 col-md-6 col-sm-12" action="php/add.php" method="post" >
+            <form class="form col-lg-6 col-md-6 col-sm-12" action="php/add.php" method="POST" >
                 <h1 class=password_header>Save your passwords here</h1>
                 <label for="username">
                     <input type="text" class="form_input" name="username" placeholder="Enter username">
@@ -20,10 +20,11 @@
                             <input type="password" class="form_input" name="password" placeholder="Enter your password">
                         </label>
                         <label for="website">
-                            <input type="text" class="form_input" name="wbsite" placeholder="Enter website">
+                            <input type="text" class="form_input" name="website" placeholder="Enter website">
 
                         </label>
-                        <button class="save btn btn-info" name="save" >save</button>
+                        <button type="submit" class="save btn btn-info" name="save" >save</button>
+                        
 
 
         </div>
