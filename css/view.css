@@ -3,3 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+.table {
+    display: inline-block;
+    color: black;
+    border-collapse: collapse;
+}

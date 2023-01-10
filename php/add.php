@@ -44,4 +44,4 @@ if(isset($_POST["save"])) {
         }
     } 
 }
-    $conn->close();
+
