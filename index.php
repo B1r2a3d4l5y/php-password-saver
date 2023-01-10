@@ -15,7 +15,8 @@
                 <h1 class=password_header>Save your passwords here</h1>
                 <label for="username">
                     <input type="text" class="form_input" name="username" placeholder="Enter username">
-                    <lablel>
+                    </label>
+                    
                         <label class="password">
                             <input type="password" class="form_input" name="password" placeholder="Enter your password">
                         </label>
@@ -23,7 +24,8 @@
                             <input type="text" class="form_input" name="website" placeholder="Enter website">
 
                         </label>
-                        <button type="submit" class="save btn btn-info" name="save" >save</button>
+                        <button type="submit" class="save btn btn-success" name="save" >save</button>
+                        <a class="view  btn btn-info" name="view" href="view.php">View</a>
                         
 
 

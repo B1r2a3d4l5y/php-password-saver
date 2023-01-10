@@ -9,9 +9,11 @@
     text-align: center;
 
 }
-.form_input {
-    padding: 100px;
+.form_input{
+    width: 150px;
+    margin: 100px;
 }
+
 .save {
     display: inline-block;
     margin: 50px;
