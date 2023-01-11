@@ -12,3 +12,4 @@ if($conn->connect_error) {
     echo "connecion succesful";
 }
 header("location:../index.php");
+$conn->close();

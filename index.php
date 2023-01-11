@@ -13,21 +13,21 @@
         <div class="row">
             <form class="form col-lg-6 col-md-6 col-sm-12" action="php/add.php" method="POST" >
                 <h1 class=password_header>Save your passwords here</h1>
-                <label for="username">
+                <label for="username" class="username col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <input type="text" class="form_input" name="username" placeholder="Enter username">
                     </label>
-                    <label for="email">
-                        <input type="text" class="form_input" placeholder="Enter your email">
+                    <label for="email" class="email col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <input type="text" class="form_input" name="email" placeholder="Enter your email">
                     <label>
                     
-                        <label class="password">
+                        <label for="password" class="password col-lg-6 col-md-6 col-sm-12 col-xs-12">
                             <input type="password" class="form_input" name="password" placeholder="Enter your password">
                         </label>
-                        <label for="website">
+                        <label for="website" class="website col-lg-6 col-md-6 col-sm-12 col-xs-12">
                             <input type="text" class="form_input" name="website" placeholder="Enter website">
 
                         </label>
-                        <button type="submit" class="save btn btn-success" name="save" >save</button>
+                        <button type="submit" class="save btn btn-success" name="save" >Save</button>
                         <a class="view  btn btn-info" name="view" href="view.php">View</a>
                         
 
