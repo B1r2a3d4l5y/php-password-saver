@@ -9,7 +9,6 @@ if($conn->connect_error) {
     die("connection failed".$conn->connect_error);
 
 } else {
-    echo "connection suceesful";
+    echo "connecion succesful";
 }
-
-?>
+header("location:../index.php");

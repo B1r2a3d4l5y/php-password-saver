@@ -16,6 +16,9 @@
                 <label for="username">
                     <input type="text" class="form_input" name="username" placeholder="Enter username">
                     </label>
+                    <label for="email">
+                        <input type="text" class="form_input" placeholder="Enter your email">
+                    <label>
                     
                         <label class="password">
                             <input type="password" class="form_input" name="password" placeholder="Enter your password">
