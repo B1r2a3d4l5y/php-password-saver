@@ -5,20 +5,28 @@ This is a simple project that saves all your passwords along your email and the 
 
 What was was used to build this project
 HTML
+
 css
+
 Bootstrap
+
 PHP
+
 SQL
 
 Front-end building
 HTML 
+
 CSS
 
 Back-end build 
+
 PHP
 
 Databases
+
 SQL
 
 Libires and frameworks used
+
 Bootstrap
