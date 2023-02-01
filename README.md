@@ -1,5 +1,5 @@
-'php-password-saver'
-A simple php project that saves your password to a database as well as edit and delete them
+'php-password-saver/manager'
+A simple php project that saves  your password to a database as well as edit and delete them
 What was used to build this project
 
 HTML 
